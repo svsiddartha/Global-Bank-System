@@ -1,6 +1,6 @@
 FROM tomcat:9.0
 
-COPY YourWarFile.war /usr/local/tomcat/webapps/
+COPY Global_Bank.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 
