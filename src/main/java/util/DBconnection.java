@@ -9,6 +9,10 @@ public class DBconnection {
 		{
 
 				Class.forName("com.mysql.cj.jdbc.Driver");
-				return DriverManager.getConnection("jdbc:mysql://localhost:3306/globalbank","root","password");
+				 return DriverManager.getConnection(
+            "jdbc:mysql://yamanote.proxy.rlwy.net:56002/railway",
+            "root",
+            "VAtqkwQKTDRHXIHpfAKISyQRHvwJqyzJ"
+        );
 		}
 }
